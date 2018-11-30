@@ -12,13 +12,23 @@ body {
 }
 
 .header {
+    flex: 1;
     border-bottom: 2px solid #ccc;
+    display: flex;
+}
+
+.header span {
+    flex: 1;
+    background: yellow;
+    border-radius: 4px;
 }
 
 .main {
+    flex: 6;
     background: yellowgreen;
 }
 
-.header {
+.footer {
     background: rebeccapurple;
+    flex: 1;
 }
